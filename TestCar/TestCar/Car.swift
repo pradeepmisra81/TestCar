@@ -46,7 +46,9 @@ class CarShowRoom {
     
     // MARK: Static Member functions
     
-    // Purchase the car.
+    // Buy a new car from the Car Show Room
+    // Params:
+    // - type: The type of car to purchase.
     static func buyCar(type: CarType) -> Car {
         switch type {
         case .sedan:

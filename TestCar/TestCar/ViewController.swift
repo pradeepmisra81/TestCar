@@ -13,19 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        let Tom = Person()
-        Tom.buyCar(type: .sedan)
-        
-        
-        let David = Person()
-        David.buyCar(type: .suv)
-        
-        let sedan = CarShowRoom.buyCar(type: .sedan)
-        sedan.drive()
-        
-        let suv = CarShowRoom.buyCar(type: .suv)
-        suv.drive()
 
     }
 

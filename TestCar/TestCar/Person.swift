@@ -14,16 +14,14 @@ class Person {
     // Buy a new car!
     // Params:
     // - type: The type of car to purchase.
-    func buyCar(type: CarType)
+    public static func buyCar(type: CarType) -> Car
     {
         switch type {
             
         case .sedan:
-            let boughtCar = Sedan()
-            boughtCar.drive()
+            return Sedan()
         case .suv:
-            let boughtCar = SUV()
-            boughtCar.drive()
+            return SUV()
         }
     }
 }
