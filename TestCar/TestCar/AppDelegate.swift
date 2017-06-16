@@ -18,14 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        //Tom has purchased the Sedan type Car, so Tom can drive a Sedan
-        let Tom = Person.buyCar(type: .sedan)
-        Tom.drive()
+        //Tom has purchased the Sedan type Car, so Tom drive a Sedan
+        let Tom = Person()
+        Tom.buyCar(type: .sedan)
         
         
-        //David has purchased the SUV type Car, so David can drive a SUV
-        let David = Person.buyCar(type: .suv)
-        David.drive()
+        
+        //David has purchased the SUV type Car, so David drive a SUV
+        let David = Person()
+        David.buyCar(type: .suv)
         
         
         //If any one buy Sedan Car from the Car Show Room , he can drive a Sedan
