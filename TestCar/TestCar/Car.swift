@@ -24,7 +24,7 @@ protocol Car {
 
 class Sedan : Car {
     // MARK: propeties
-    var carModel = "Sedan"
+    var carModel = AppConstants.Sedan
 
     // MARK: Member functions
     
@@ -38,7 +38,7 @@ class Sedan : Car {
 
 class SUV : Car {
     // MARK: propeties
-    var carModel = "SUV"
+    var carModel = AppConstants.SUV
 
     // MARK: Member functions
     

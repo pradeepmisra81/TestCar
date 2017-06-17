@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494096A71EF5AEF7006F53C7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494096A61EF5AEF7006F53C7 /* AppConstants.swift */; };
 		49924D951EF40236008E9962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49924D941EF40236008E9962 /* AppDelegate.swift */; };
 		49924D971EF40236008E9962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49924D961EF40236008E9962 /* ViewController.swift */; };
 		49924D9A1EF40236008E9962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49924D981EF40236008E9962 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		494096A61EF5AEF7006F53C7 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		49924D911EF40236008E9962 /* TestCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49924D941EF40236008E9962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49924D961EF40236008E9962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				49924DB81EF4025D008E9962 /* Person.swift */,
 				49924D941EF40236008E9962 /* AppDelegate.swift */,
 				49924D961EF40236008E9962 /* ViewController.swift */,
+				494096A61EF5AEF7006F53C7 /* AppConstants.swift */,
 				49924D981EF40236008E9962 /* Main.storyboard */,
 				49924D9E1EF40236008E9962 /* Assets.xcassets */,
 				49924DA01EF40236008E9962 /* LaunchScreen.storyboard */,
@@ -213,6 +216,7 @@
 				49924DB91EF4025D008E9962 /* Car.swift in Sources */,
 				49924D951EF40236008E9962 /* AppDelegate.swift in Sources */,
 				49924DBA1EF4025D008E9962 /* Person.swift in Sources */,
+				494096A71EF5AEF7006F53C7 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +424,7 @@
 				49924DB31EF40236008E9962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49924DB41EF40236008E9962 /* Build configuration list for PBXNativeTarget "TestCarTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				49924DB61EF40236008E9962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
