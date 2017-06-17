@@ -38,9 +38,9 @@ class Person {
         switch type {
             
         case .sedan:
-            hasCar = Sedan()
+            hasCar = CarShowRoom.buyCar(type: .sedan)
         case .suv:
-            hasCar = SUV()
+            hasCar = CarShowRoom.buyCar(type: .suv)
         }
     }
 }
