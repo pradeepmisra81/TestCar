@@ -13,7 +13,9 @@ enum CarType {
 }
 
 protocol Car {
+    // MARK: propeties
     var carModel:String {get}
+    
     // MARK: Member functions
     
     // Drive the car.
@@ -21,6 +23,7 @@ protocol Car {
 }
 
 class Sedan : Car {
+    // MARK: propeties
     var carModel = "Sedan"
 
     // MARK: Member functions
@@ -34,6 +37,7 @@ class Sedan : Car {
 }
 
 class SUV : Car {
+    // MARK: propeties
     var carModel = "SUV"
 
     // MARK: Member functions

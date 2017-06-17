@@ -10,6 +10,7 @@ import Foundation
 
 class Person {
     
+    // MARK: propeties
     var personName: String
     var hasCar: Car?
     
