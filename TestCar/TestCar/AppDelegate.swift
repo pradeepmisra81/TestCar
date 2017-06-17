@@ -19,22 +19,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //Tom has purchased the Sedan type Car, so Tom drive a Sedan
-        let Tom = Person()
+        let Tom = Person("Tom")
+        print("Person name:\(Tom.personName)")
         Tom.buyCar(type: .sedan)
-        
+        Tom.drive()
         
         
         //David has purchased the SUV type Car, so David drive a SUV
-        let David = Person()
+        let David = Person("David")
+        print("Person name:\(David.personName)")
         David.buyCar(type: .suv)
+        David.drive()
+        
+        //Parker has not purchased any Car
+        let Parker = Person("Parker")
+        print("Person name:\(Parker.personName)")
+        Parker.drive()
+        
         
         
         //If any one buy Sedan Car from the Car Show Room , he can drive a Sedan
         let sedan = CarShowRoom.buyCar(type: .sedan)
+        print("Car purchased from Show Room :\(sedan.carModel)")
         sedan.drive()
         
         //If any one buy SUV Car from the Car Show Room , he can drive a SUV
         let suv = CarShowRoom.buyCar(type: .suv)
+        print("Car purchased from Show Room:\(suv.carModel)")
         suv.drive()
         
         return true

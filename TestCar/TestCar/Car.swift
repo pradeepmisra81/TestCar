@@ -13,7 +13,7 @@ enum CarType {
 }
 
 protocol Car {
-    
+    var carModel:String {get}
     // MARK: Member functions
     
     // Drive the car.
@@ -21,24 +21,27 @@ protocol Car {
 }
 
 class Sedan : Car {
+    var carModel = "Sedan"
 
     // MARK: Member functions
     
     // Drive the car.
     func drive() {
         
-        print("drive a sedan")
+        print("drive a \(carModel)")
     }
     
 }
 
 class SUV : Car {
+    var carModel = "SUV"
+
     // MARK: Member functions
     
     // Drive the car.
     func drive()
     {
-        print( "drive a SUV" )
+        print( "drive a \(carModel)" )
     }
 }
 

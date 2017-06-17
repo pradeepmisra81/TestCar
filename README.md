@@ -15,7 +15,7 @@ protocol:
 
 Car is designed as protocol, which will work as interface for the different types of Car as Sedan, SUV etc.
 
-# Test the Classes by creationg the instances and accessing the methods using the class instances.
+# Test the Classes by creationg the instances and accessing the methods using these instances.
 
 
         //Tom has purchased the Sedan type Car, so Tom drive a Sedan

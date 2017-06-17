@@ -9,7 +9,26 @@
 import Foundation
 
 class Person {
+    
+    var personName: String
+    var hasCar: Car?
+    
     // MARK: Member functions
+    
+    init(_ name:String) {
+        personName = name
+    }
+    
+    // Drive the car.
+    func drive()
+    {
+        if let hasCar = hasCar {
+        print( "\(personName) drive a \(hasCar.carModel)" )
+        }
+        else {
+            print( "\(personName) has no Car" )
+        }
+    }
     
     // Buy a new car!
     // Params:
@@ -19,11 +38,9 @@ class Person {
         switch type {
             
         case .sedan:
-            let boughtCar = Sedan()
-            boughtCar.drive()
+            hasCar = Sedan()
         case .suv:
-            let boughtCar = SUV()
-            boughtCar.drive()
+            hasCar = SUV()
         }
     }
 }
